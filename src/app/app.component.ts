@@ -102,39 +102,4 @@ export class AppComponent implements OnInit {
       });
     }
   }
-
-  // formatClassifications(params: any) {
-  //   if (params.value && params.value.length > 0) {
-  //     return params.value.join(', ');
-  //   }
-  //   return '';
-  // }
-
-
-  // gridOptions: GridOptions;
-  // rowData: any[];
-
-  // constructor(private dataAssociationService: DataAssociationService) {
-  //   this.gridOptions = <GridOptions>{
-  //     defaultColDef: {
-  //       sortable: true,
-  //       filter: true,
-  //     },
-  //   };
-  //   this.rowData = Array.from(this.dataAssociationService.getDataMap().values());
-  // }
-
-  // columnDefs = [
-  //   { headerName: 'Transaction ID', field: '_id' },
-  //   { headerName: 'Direction', field: 'direction' },
-  //   { headerName: 'Description', field: 'description' },
-  //   { headerName: 'Account Name', field: 'account.name' },
-  //   { headerName: 'Amount', field: '_quantity._actualQuantity._amount' },
-  //   { headerName: 'Precision', field: '_quantity._actualQuantity._precision' },
-  //   { headerName: 'Symbol', field: '_quantity._actualQuantity._symbol' },
-  //   { headerName: 'Transaction Date', field: '_transactionDate' },
-  //   { headerName: 'Category', field: 'category' },
-  //   { headerName: 'Classification', field: 'classifications' } // Assuming only one classification for simplicity
-  // ];
-  
 }
